@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-react-inflearn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run backend --prefix server\" \"npm run start --prefix client\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinJunKimKR/nodejs-react-inflearn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MinJunKimKR/nodejs-react-inflearn/issues"
+  },
+  "homepage": "https://github.com/MinJunKimKR/nodejs-react-inflearn#readme",
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  }
+}

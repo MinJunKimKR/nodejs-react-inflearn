@@ -21,6 +21,11 @@ app.get('/api/users', (req, res) => {
     res.send('hello world');
 })
 
+app.get('/api/hello', (req, res) => {
+
+    res.send('안녕하세요 hello world')
+})
+
 app.post('/api/users/register', (req, res) => {
     const user = new User(req.body)//body parser 가 있어서 req.body에 데이터가 들어가는거임
 
